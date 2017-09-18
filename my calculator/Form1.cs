@@ -24,7 +24,7 @@ namespace my_calculator
 
         private void eXitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
        
@@ -49,11 +49,21 @@ namespace my_calculator
         {
             textBox1.Clear();
             textBox2.Clear();
+            label1.Text = "Result";
+        
 
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void clearToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            label1.Text = "Result";
 
         }
     }
