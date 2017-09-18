@@ -91,7 +91,7 @@ namespace my_calculator
             // eXitToolStripMenuItem
             // 
             this.eXitToolStripMenuItem.Name = "eXitToolStripMenuItem";
-            this.eXitToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
+            this.eXitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.eXitToolStripMenuItem.Text = "Exit";
             this.eXitToolStripMenuItem.Click += new System.EventHandler(this.eXitToolStripMenuItem_Click);
             // 
@@ -100,6 +100,7 @@ namespace my_calculator
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // button1
             // 

@@ -66,5 +66,10 @@ namespace my_calculator
             label1.Text = "Result";
 
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show( "Developed by Roy Semaganda @2017");
+        }
     }
 }
